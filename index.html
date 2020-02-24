@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+            font-family: comic-sans-ms;
+            background-color:black;
+        }
+        
+         *{
+                box-sizing:border-box;
+            }
+            
+            body{
+                font-family: cursive;
+                background: dimgray;
+            }
+        
+            header {
+                background-color: dimgray;
+                    padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: black;
+            }
+        
+         nav {
+                float: left;
+                width: 30%;
+                background:skyblue;
+                padding: 79px;
+            }
+        
+            nav ul {
+                list-style-type: none;
+                padding: 0px;
+            }
+        
+            article {
+                float: left;
+                padding: 33px;
+                width: 35%;
+                background-color: lightgray;
+            }
+        
+            section: after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        
+            footer {
+                background-color: dimgray;
+                padding: 10px;
+                text-align: center;
+                color: dimgray;
+            }
+            
+            .dropdown {
+                position: relative;
+                display: inline-block
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 160px;
+                box-shadow: 0px, 8px,16px, rgba(0,0,0,0.2);
+                padding: 12px 16px;
+                z-index: 1;
+            }
+            
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        
+          .article2 {
+                float: right;
+                padding: 44px;
+                width: 35;
+                background-color: azure;
+            }
+        
+    </style>
+    
+<head>
+  <title>First Bootstrap website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+    
+<body>
+    
+    <body style="background-color:black">
+    
+    <div class="jumbotron text-center">
+        <img src="https://cdn.discordapp.com/attachments/609489580017582133/677257394040078356/20191120_180117.jpg" class="img-thumbnail" width="280px">
+        <h1 class="display-1" style="font-family: comic-sans-ms">Calcium Bread</h1>
+        <p style="font-family: comic-sans-ms"><span class="badge badge-secondary">New!</span> Bread full of calcium for healthy bones in your basement! order one now and have healthy bones forever!</p>
+        <div class="progress">
+        <div class="progress-bar" style="width:100%">
+            </div>
+        </div>
+    </div>
+        <header>
+            <div class="dropdown">
+        <span>Click for haiku</span>
+            <div class="dropdown-content">
+                <pre style="font-size: 11px">
+Calcium I need.
+Bones be strong for skelly man.
+Now he be groovin'
+                
+                </pre>
+            </div>
+        </div>
+        <h1><a href="#">Marvin</a></h1>
+        <div class="dropdown">
+        <span>Bone|</span>
+            <div class="dropdown-content">
+                <p>health</p>
+            </div>
+        </div>
+        <div class="dropdown">
+        <span>Bones|</span>
+            <div class="dropdown-content">
+            <p>Healthy </p>
+            </div>
+        </div>
+        <div class="dropdown">
+        <span>BONES|</span>
+            <div class="dropdown-content">
+            <p>healthier</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <span><p style="font-family:comic-sans-ms">BONES|</p>
+            </span>
+            <div class="dropdown-content">
+            <p style="font-family: comic-sans-ms">HEALTH </p>
+                <iframe src="https://giphy.com/embed/J0WeVOLjuqW2I" width="480" height="436" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </div>
+        </div>
+    </header>
+    
+    <section>
+        <nav>
+           <iframe  height="100%" width="100%" src="https://www.youtube.com/embed/kGOQfLFzJj8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </nav>
+    </section>
+    
+    <article>
+        <iframe src="https://giphy.com/embed/3ECGuZrsrHDX2" width="480" height="242" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    </article>
+    
+    <article class="article2">
+        <pre>
+        Hello my name is Marvin
+        To the very left is motivational lizard.
+        Very motivational.
+        beside that is an just a skeleton groovin'.
+        gotta let em groov.
+        spoopy skelly be dancin'
+        There's a secret in the footer, Find it.
+        also in the three buttons at the bottom. Secret boss fight link.
+        
+        </pre>
+        
+    </article>
+    
+    <footer>
+        <p>Unsubscribe from these totally real calcium inducing mails.</p>
+    </footer>
+    
+  <button class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+    </button>
+    
+<div class="btn group">
+    <button type="button" class="btn btn-primary">boney</button>
+    <button type="button" class="btn btn-primary">bonetastic</button>
+    <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">ultra bone</button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="https://jcw87.github.io/c2-sans-fight/">legendary bone</a>
+        <a class="dropdown-item" href="#">mega bone</a>
+        </div>
+    </div>
+</div>
+        
+        <div class="btn group">
+    <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Are you mad because it's not october but there's still skeletons?</button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="http://127.0.0.1:51698/mad.html">Yea</a>
+        <a class="dropdown-item" href="http://127.0.0.1:51698/Good.html">Nope. No way No how</a>
+        </div>
+    </div>
+</div>
+        
+        <ul class="pagination">
+  <li class="page-item"><a class="page-link" href="http://127.0.0.1:51698/Index.html">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="http://127.0.0.1:51698/Index.html">1</a></li>
+  <li class="page-item"><a class="page-link" href="http://127.0.0.1:51698/index2.html">2</a></li>
+  <li class="page-item"><a class="page-link" href="http://127.0.0.1:51698/index2.html">Next</a></li>
+</ul>
+        
+</body>
+    </body>
+    
+</html>
